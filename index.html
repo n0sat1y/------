@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="fixed-top text-light">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <ul class="styled-list">
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#catalog">Основные Гаммы</a></li>
+            <li><a href="#main__info">Доп Информация</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+    <div id="home"
+      class="main__banner text-light d-flex justify-content-center align-items-center"
+    >
+      <div class="mainBanner__content">
+        <header class="w-100 d-flex justify-content-between">
+          <a href=""><img src="img/001_GsAw2p3.png" alt="" /></a>
+          <div class="d-flex flex-column align-items-center">
+            <p class="m-0 p-0 w-100 h4 text-end">8 800 555 35-35</p>
+            <a
+              href=""
+              class="h5 w-100 text-end d-flex justify-content-end text-danger align-items-center"
+              ><i class="bi text-danger me-2 bi-telephone-fill"></i>Заказать
+              звонок</a
+            >
+          </div>
+        </header>
+        <main class="w-100 desc">
+          <h1 class="fw-bold mb-2">Тренеруйся по-новому!</h1>
+          <pre class="h6 my-4">
+Кроссовки Like выведут вашу технику
+            бега на новый уровень с помощью
+            технологии Light&Strong</pre
+          >
+          <div class="buttonBox">
+            <a href="#main__info">
+              <button class="button me-3">
+                <i class="bi h2 fw-bold text-center bi-arrow-down"></i>
+              </button>
+            </a>
+          </div>
+        </main>
+      </div>
+    </div>
+    <main id="main__info">
+      <div class="mainInfo__box">
+        <div class="d-flex cardWrapper">
+          <img src="img/005_Ulu4Dam.png" alt="" />
+          <div class="d-flex flex-column">
+            <h1 class="fs-4 fw-bold">Амортизация</h1>
+            <p>
+              Промежуточная подошва из пены премиум-класса обеспечивает
+              качественную амортизацию во время бега
+            </p>
+          </div>
+          </div>
+        </div>
+        <div class="d-flex cardWrapper">
+          <img src="img/006_PThpr63.png" alt="" />
+          <div class="d-flex flex-column">
+            <h1 class="fs-4 fw-bold">Подошва</h1>
+            <p>
+              Прочная резина с покрытием Strog обеспечивает износостойкость и дает
+надежное сцепление с разными видами поверхностей
+            </p>
+          </div>
+          </div>
+        </div>
+        <div class="d-flex cardWrapper">
+          <img src="img/007_j2EgGD8.png" alt="" />
+          <div class="d-flex flex-column">
+            <h1 class="fs-4 fw-bold">Конструкция</h1>
+            <p>
+              Бесшовное покрытие верха кроссовка обеспечивает защиту от натирания
+            </p>
+          </div>
+          </div>
+        </div>
+        <div class="d-flex cardWrapper">
+          <img src="img/008_7WAmnnT.png" alt="" />
+          <div class="d-flex flex-column">
+            <h1 class="fs-4 fw-bold">Материал</h1>
+            <p>
+              Сетка MemoryFix обеспечивает прочную фиксацию стопы во время бега
+и позволяет воздуху свободно циркулировать внутри кроссовка
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section id="form">
+      <div class="formContent">
+        <form action="">
+          <h1 class="text-center">Оставьте заявку</h1>
+          <div class="formBox">
+            <input type="text" placeholder="Ваше имя*" required>
+            <input type="text" placeholder="Ваш телефон">
+            <input type="email" placeholder="Ваше email">
+            <span> <input type="checkbox"><label for="" class="ms-2 text-muted">Я согласен на обработку персональных данных</label></span>
+            <button type="submit">Заказать кроссовки</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section id="catalog">
+      <div class="adInfo py-5">
+        <h1 class="text-center test fw-bold">Цветовые решения</h1>
+        <swiper-container class="mySwiper" slides-per-view="3" centered-slides="true" space-between="30" pagination="true"
+        pagination-type="fraction" navigation="true">
+        <swiper-slide><img src="img/011_r2cDZen.jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="img/012_S61dMfG.jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="img/013_sirQmLx.jpg" alt=""></swiper-slide>
+      </swiper-container>
+      </div>
+    </section>
+    <footer id="contacts" class="footer">
+      <table class="main-table">
+        <tr>
+            <td>
+                <h2>О компании</h2>
+                <p>Комфорт и удобство - наш слоган!</p>
+            </td>
+            <td>
+                <h2>Навигация</h2>
+                <table class="inner-table">
+                    <tr><td>Главная</td></tr>
+                    <tr><td>О товарах</td></tr>
+                    <tr><td>Контакты</td></tr>
+                </table>
+            </td>
+            <td>
+                <h2>Контакты</h2>
+                <table class="inner-table">
+                    <tr>
+                        <td>Телефон:</td>
+                        <td>+7 800 555 35-35</td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>likepro@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Адрес:</td>
+                        <td>г. Курск, ул. Радищева, д. 33</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Все права защищены. <a href="#policy">Политика конфиденциальности</a></p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    
+  </body>
+</html>
